@@ -1,0 +1,208 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2e7d32; /* Deep green */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #00509e; /* Slightly lighter blue */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #003366; /* Dark blue */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Services Intro Section */
+.services-intro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center; /* Center heading and sub-headline */
+}
+
+.services-intro h1 {
+    margin-bottom: 10px;
+}
+
+.services-intro .Sub-headline{
+    color: #555;
+}
+
+
+/* Gorilla and Chimpanzee Trekking Section */
+.Gorilla-Chimpanzee-Trekking {
+    background-color: #e0f7fa; /* Very light cyan/blue */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Gorilla-Chimpanzee-Trekking h2 {
+    color: #00664d; /* A dark green */
+    text-align: center;
+}
+
+
+/* Wildlife Safaris Section */
+.Wildlife-Safaris {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.Wildlife-Safaris h2{
+    text-align: center;
+}
+
+/* Cultural Tours Section */
+.Cultural-Tours {
+    background-color: #f0f4c3; /* Light yellow/beige */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Cultural-Tours h2{
+    text-align: center;
+}
+
+/* Adventure Activities Section */
+.Adventure-Activities {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.Adventure-Activities h2{
+    text-align: center;
+}
+
+/* Birdwatching Tours Section */
+.Birdwatching-Tours{
+    background-color: #e0f7fa; /* Very light cyan/blue */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Birdwatching-Tours h2 {
+    color: #00664d; /* A dark green */
+    text-align: center;
+}
+
+/* Tailor-Made Tours */
+.Tailor-Made-Tours {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.Tailor-Made-Tours h2{
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1b5e20;  /* Deep green */
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-top: #ffca28;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+}
+
+.social-links img {
+    border-radius: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
